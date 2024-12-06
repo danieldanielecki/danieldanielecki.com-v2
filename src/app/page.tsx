@@ -29,6 +29,13 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <Link
+                href={DATA.locationLink}
+                className="hover:underline"
+                target="_blank"
+              >
+                Based in {DATA.location}
+              </Link>{" "}
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -65,7 +72,6 @@ export default function Page() {
                 altText={work.company}
                 title={work.company}
                 subtitle={work.title}
-                href={work.href}
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? "Present"}`}
                 description={work.description}
@@ -111,7 +117,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="projects">
+      {/* <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -151,32 +157,28 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section>
-      <section id="hackathons">
+      </section> */}
+      <section id="talks">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
+                  Talks
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  Learning by teaching
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  Other than educating several thousands of students of my community, I&apos;m also an early stage coach &amp; speaker. So far, there are{" "}
+                  {DATA.talks.length}+ talks of conferences, talks, and trainings.
                 </p>
               </div>
             </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
+              {DATA.talks.map((project, id) => (
                 <BlurFade
                   key={project.title + project.dates}
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
@@ -210,8 +212,15 @@ export default function Page() {
                 <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
+                  target="_blank"
                 >
-                  with a direct question on twitter
+                  with a direct question on X
+                </Link>{" "} or <Link
+                  href={DATA.contact.social.Telegram.url}
+                  className="text-blue-500 hover:underline"
+                  target="_blank"
+                >
+                  Telegram
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
