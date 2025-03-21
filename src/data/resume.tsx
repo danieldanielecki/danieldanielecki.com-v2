@@ -362,7 +362,7 @@ export const DATA = {
           href: "https://github.com/danieldanielecki/memory-leaks-in-javascript",
         },
         {
-          title: "YouTube",
+          title: "Watch now",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com",
         },
@@ -383,7 +383,7 @@ export const DATA = {
           href: "https://github.com/danieldanielecki/Is-GraphQL-really-helpful-in-contrast-to-REST-API-s-",
         },
         {
-          title: "YouTube",
+          title: "Watch now",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com/watch?v=azoe49N3Dt4",
         },
@@ -404,7 +404,7 @@ export const DATA = {
           href: "https://github.com/danieldanielecki/Uncovering-Browser-Storage",
         },
         {
-          title: "YouTube",
+          title: "Watch now",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com/watch?v=WObKU3u_-qw",
         },
@@ -425,7 +425,7 @@ export const DATA = {
           href: "https://github.com/danieldanielecki/tsc--strict-vue",
         },
         {
-          title: "YouTube",
+          title: "Watch now",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com/watch?v=pVun2TNT8dk",
         },
@@ -446,7 +446,7 @@ export const DATA = {
           href: "https://github.com/danieldanielecki/TypeScript-s-Strict-Compiler-Options",
         },
         {
-          title: "YouTube",
+          title: "Watch now",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com/watch?v=o0HEbXdCyKg",
         },
