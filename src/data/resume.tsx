@@ -9,7 +9,7 @@ export const DATA = {
   location: "Amsterdam 🇳🇱",
   locationLink: "https://www.google.com/maps/place/amsterdam",
   description:
-    "🏆 Top Stack Overflow 🧑‍🏫 EdTech Instructor (GitHub, Udemy) 🎤 (Early Stage) Speaker 🏃 Long-distance runner. ",
+    "🏆 Top Stack Overflow 🧑‍🏫 EdTech Instructor (GitHub, Udemy) 🎤 (Early Stage) Speaker 🏃 Long-distance runner.",
   summary:
     "My name is Daniel Danielecki, and I'm a FullStack Web & Mobile JavaScript Developer. Working commercially in the Web, since being 19 years old. I'm also quite handy with Cloud with plenty of certifications you can find on my LinkedIn, and even co-developed & published few [multiplatform casual games](https://doyban.com). I also advocate for [learning by teaching](/#talks). Outside sitting on a computer, you can find me running & doing other sports on [Strava](https://strava.com/athletes/87158328). PR's: 5K: 15:59, 10K: 33:36, HM: 1:14:52. I support small & creative creators on [Kickstarter](https://www.kickstarter.com/profile/danieldanielecki), and even [created one myself](https://www.kickstarter.com/projects/danieldanielecki/games-without-installation).",
   avatarUrl: "/me.jpg",
@@ -348,7 +348,28 @@ export const DATA = {
   ],
   talks: [
     {
-      title: "Is GraphQL really helpful in contrast to REST API's? ",
+      title: "Memory Leaks in JavaScript",
+      dates: "March 21, 2025",
+      location: "Amsterdam 🇳🇱",
+      description:
+        "Discover what Memory Leaks are in practice. We'll use MemLab and Chrome DevTools to debug leakage in our sample application, and it'll no longer be a black box for Developers attending the session!",
+      image:
+        "./webdevcon.png",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/danieldanielecki/memory-leaks-in-javascript",
+        },
+        {
+          title: "YouTube",
+          icon: <Icons.youtube className="h-4 w-4" />,
+          href: "https://www.youtube.com",
+        },
+      ],
+    },
+    {
+      title: "Is GraphQL really helpful in contrast to REST API's?",
       dates: "July 2, 2024",
       location: "Nuremberg 🇩🇪",
       description:
