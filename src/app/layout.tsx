@@ -7,7 +7,8 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { GoogleTagManager } from '@next/third-parties/google'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -71,6 +72,7 @@ export default function RootLayout({
         </ThemeProvider>
         <GoogleTagManager gtmId="GTM-5SHVM69" />
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
