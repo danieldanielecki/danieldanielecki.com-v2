@@ -9,7 +9,7 @@ export const DATA = {
   location: "Amsterdam 🇳🇱",
   locationLink: "https://www.google.com/maps/place/amsterdam",
   description:
-    "🏆 Top Stack Overflow 🧑‍🏫 EdTech Instructor (GitHub, Udemy) 🎤 (Early Stage) Speaker 🏃 Long-distance runner.",
+    "🏆 Top Stack Overflow 🧑‍🏫 EdTech Instructor (GitHub, Udemy) 🎤 International Speaker 🏃 Long-distance runner.",
   summary:
     "My name is Daniel Danielecki, and I'm a FullStack Web & Mobile JavaScript Developer. Working commercially in the Web, since being 19 years old. I'm also quite handy with Cloud with plenty of certifications you can find on my LinkedIn, and even co-developed & published few [multiplatform casual games](https://doyban.com). I also advocate for [learning by teaching](/#talks). Outside sitting on a computer, you can find me running & doing other sports on [Strava](https://strava.com/athletes/87158328). PR's: 5K: 15:59, 10K: 33:36, HM: 1:14:52. I support small & creative creators on [Kickstarter](https://www.kickstarter.com/profile/danieldanielecki), and even [created one myself](https://www.kickstarter.com/projects/danieldanielecki/games-without-installation).",
   avatarUrl: "/me.jpg",
