@@ -68,7 +68,7 @@ export default function Page() {
                   Learning by teaching
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Other than educating several thousands of students of my community, I&apos;m also an early stage coach &amp; speaker. So far, there are{" "}
+                  Other than educating several thousands of students of my community, I&apos;m also an International Speaker. So far, there are{" "}
                   {DATA.talks.length}+ talks of conferences, talks, and trainings.
                 </p>
               </div>
