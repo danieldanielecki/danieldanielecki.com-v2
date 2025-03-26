@@ -359,7 +359,7 @@ export const DATA = {
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/danieldanielecki/memory-leaks-in-javascript",
+          href: "https://github.com/danieldanielecki/memory-leaks-in-javascript/releases/tag/v1.0.0",
         },
         {
           title: "Watch now",
