@@ -349,6 +349,27 @@ export const DATA = {
   talks: [
     {
       title: "Memory Leaks in JavaScript",
+      dates: "April 7, 2025",
+      location: "Bologna 🇮🇹",
+      description:
+        "Discover what Memory Leaks are in practice. We'll use MemLab and Chrome DevTools to debug leakage in our sample application, and it'll no longer be a black box for Developers attending the session!",
+      image:
+        "./jsday.svg",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/danieldanielecki/memory-leaks-in-javascript/releases/tag/v1.1.0",
+        },
+        {
+          title: "Watch now",
+          icon: <Icons.youtube className="h-4 w-4" />,
+          href: "https://www.youtube.com",
+        },
+      ],
+    },
+    {
+      title: "Memory Leaks in JavaScript",
       dates: "March 21, 2025",
       location: "Amsterdam 🇳🇱",
       description:
