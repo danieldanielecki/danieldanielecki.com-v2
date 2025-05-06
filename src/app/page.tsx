@@ -75,7 +75,7 @@ export default function Page() {
                   >
                     several thousands of students of my community
                   </Link>, I&apos;m also an International Speaker. So far, there are{" "}
-                  {DATA.talks.length}+ talks of conferences, talks, and trainings. Check out my courses on{" "}.
+                  {DATA.talks.length}+ talks of conferences, talks, and trainings.
                 </p>
               </div>
             </div>
