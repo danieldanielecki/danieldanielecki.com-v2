@@ -69,6 +69,12 @@ export const DATA = {
         icon: Icons.telegram,
         navbar: true,
       },
+      Udemy: {
+        name: "Udemy",
+        url: "https://www.udemy.com/user/daniel-danielecki/",
+        icon: Icons.udemy,
+        navbar: true,
+      },
       X: {
         name: "X",
         url: "https://x.com/ddanielecki",
@@ -275,7 +281,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
+          type: "Materials",
           href: "https://github.com/magicuidesign/magicui",
           icon: <Icons.github className="size-3" />,
         },
@@ -308,7 +314,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
+          type: "Materials",
           href: "https://github.com/dillionverma/llm.report",
           icon: <Icons.github className="size-3" />,
         },
@@ -349,6 +355,27 @@ export const DATA = {
   talks: [
     {
       title: "Memory Leaks in JavaScript",
+      dates: "May 7, 2025",
+      location: "Regensburg 🇩🇪",
+      description:
+        "Discover what Memory Leaks are in practice. We'll use MemLab and Chrome DevTools to debug leakage in our sample application, and it'll no longer be a black box for Developers attending the session!",
+      image:
+        "./adc.png",
+      links: [
+        {
+          title: "Materials",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/danieldanielecki/memory-leaks-in-javascript/releases/tag/v1.2.0",
+        },
+        {
+          title: "Watch",
+          icon: <Icons.youtube className="h-4 w-4" />,
+          href: "https://www.youtube.com",
+        },
+      ],
+    },
+    {
+      title: "Memory Leaks in JavaScript",
       dates: "April 7, 2025",
       location: "Bologna 🇮🇹",
       description:
@@ -357,12 +384,12 @@ export const DATA = {
         "./jsday.svg",
       links: [
         {
-          title: "Source",
+          title: "Materials",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/danieldanielecki/memory-leaks-in-javascript/releases/tag/v1.1.0",
         },
         {
-          title: "Watch now",
+          title: "Watch",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com",
         },
@@ -378,12 +405,12 @@ export const DATA = {
         "./webdevcon.png",
       links: [
         {
-          title: "Source",
+          title: "Materials",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/danieldanielecki/memory-leaks-in-javascript/releases/tag/v1.0.0",
         },
         {
-          title: "Watch now",
+          title: "Watch",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com",
         },
@@ -399,12 +426,12 @@ export const DATA = {
         "./dwx.jpeg",
       links: [
         {
-          title: "Source",
+          title: "Materials",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/danieldanielecki/Is-GraphQL-really-helpful-in-contrast-to-REST-API-s-",
         },
         {
-          title: "Watch now",
+          title: "Watch",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com/watch?v=azoe49N3Dt4",
         },
@@ -420,12 +447,12 @@ export const DATA = {
         "/abn.png",
       links: [
         {
-          title: "Source",
+          title: "Materials",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/danieldanielecki/Uncovering-Browser-Storage",
         },
         {
-          title: "Watch now",
+          title: "Watch",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com/watch?v=WObKU3u_-qw",
         },
@@ -441,12 +468,12 @@ export const DATA = {
         "./vuejsamsterdam.svg",
       links: [
         {
-          title: "Source",
+          title: "Materials",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/danieldanielecki/tsc--strict-vue",
         },
         {
-          title: "Watch now",
+          title: "Watch",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com/watch?v=pVun2TNT8dk",
         },
@@ -462,12 +489,12 @@ export const DATA = {
         "./conf42.jpeg",
       links: [
         {
-          title: "Source",
+          title: "Materials",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/danieldanielecki/TypeScript-s-Strict-Compiler-Options",
         },
         {
-          title: "Watch now",
+          title: "Watch",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com/watch?v=o0HEbXdCyKg",
         },
@@ -483,7 +510,7 @@ export const DATA = {
         "/capgemini.png",
       links: [
         {
-          title: "Source",
+          title: "Materials",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/danieldanielecki/JavaScript-Security-Engineering",
         },
