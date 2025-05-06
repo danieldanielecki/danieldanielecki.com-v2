@@ -68,8 +68,14 @@ export default function Page() {
                   Learning by teaching
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Other than educating several thousands of students of my community, I&apos;m also an International Speaker. So far, there are{" "}
-                  {DATA.talks.length}+ talks of conferences, talks, and trainings.
+                  Other than educating <Link
+                    href="https://education.ditectrev.com"
+                    className="text-blue-500 hover:underline"
+                    target="_blank"
+                  >
+                    several thousands of students of my community
+                  </Link>, I&apos;m also an International Speaker. So far, there are{" "}
+                  {DATA.talks.length}+ talks of conferences, talks, and trainings. Check out my courses on{" "}.
                 </p>
               </div>
             </div>
