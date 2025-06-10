@@ -9,7 +9,7 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
-const BLUR_FADE_DELAY = 0.04;
+const BLUR_FADE_DELAY = 0.2;
 
 export default function Page() {
   return (
@@ -29,13 +29,15 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
-              <Link
-                href={DATA.locationLink}
-                className="hover:underline"
-                target="_blank"
-              >
-                Based in {DATA.location}
-              </Link>{" "}
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <Link
+                  href={DATA.locationLink}
+                  className="hover:underline"
+                  target="_blank"
+                >
+                  Based in {DATA.location}
+                </Link>{" "}
+              </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
