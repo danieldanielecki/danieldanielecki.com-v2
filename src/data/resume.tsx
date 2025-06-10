@@ -367,11 +367,6 @@ export const DATA = {
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/danieldanielecki/memory-leaks-in-javascript/releases/tag/v1.2.0",
         },
-        {
-          title: "Watch",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com",
-        },
       ],
     },
     {
@@ -391,7 +386,7 @@ export const DATA = {
         {
           title: "Watch",
           icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com",
+          href: "https://www.youtube.com/live/da4sjp6_tn8?si=BQi9LsGKa9cvc-FG&t=28113",
         },
       ],
     },
@@ -412,7 +407,7 @@ export const DATA = {
         {
           title: "Watch",
           icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com",
+          href: "https://www.youtube.com/watch?v=qQZjeAcsKTc",
         },
       ],
     },
