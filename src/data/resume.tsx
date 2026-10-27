@@ -45,6 +45,12 @@ export const DATA = {
     email: "hello@example.com",
     tel: "+123456789",
     social: {
+      Amazon: {
+        name: "Amazon",
+        url: "https://www.amazon.com/stores/Daniel-Danielecki/author/B0GD8L67QL",
+        icon: Icons.amazon,
+        navbar: true,
+      },
       GitHub: {
         name: "GitHub",
         url: "https://github.com/danieldanielecki",
@@ -86,17 +92,27 @@ export const DATA = {
 
   work: [
     {
-      company: "ABN AMRO Bank N.V.",
-      badges: ["contract switch", "promotion"],
-      title: "Staff Software Engineer",
+      company: "ABN AMRO Bank",
+      badges: ["promotion"],
+      title: "Principal Software Engineer",
       logoUrl: "/abn.png",
-      start: "January 2023",
+      start: "October 2026",
       end: null,
       description:
         "Leading introduction of Mastercard debit card via our Internet Banking channel for our bank. In the Netherlands, all debit cards are Maestro without the possibility to pay overseas online (no CVV/CVC).",
     },
     {
-      company: "ABN AMRO Bank N.V. (via Capgemini)",
+      company: "ABN AMRO Bank",
+      badges: ["contract switch", "promotion"],
+      title: "Staff Software Engineer",
+      logoUrl: "/abn.png",
+      start: "January 2023",
+      end: "September 2026",
+      description:
+        "Leading introduction of Mastercard debit card via our Internet Banking channel for our bank. In the Netherlands, all debit cards are Maestro without the possibility to pay overseas online (no CVV/CVC).",
+    },
+    {
+      company: "ABN AMRO Bank (via Capgemini)",
       badges: [],
       title: "Senior Software Engineer",
       logoUrl: "/abn.png",
